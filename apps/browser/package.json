@@ -1,0 +1,16 @@
+{
+  "name": "@beacon/browser",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "clean": "rm -rf dist",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint src/"
+  },
+  "devDependencies": {
+    "eslint-config-custom": "workspace:*",
+    "tsconfig": "workspace:*",
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2"
+  }
+}
