@@ -17,7 +17,8 @@
     "skipLibCheck": true,
     "strict": true,
     "noEmit": true,
-    "strictNullChecks": true
+    "strictNullChecks": true,
+    "lib": ["ES2015", "DOM"]
   },
   "exclude": ["node_modules"]
 }
